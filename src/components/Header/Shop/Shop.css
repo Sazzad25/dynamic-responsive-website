@@ -27,7 +27,7 @@
     }
 }
 
-
+/* this is comment */
 @media only screen and (max-width: 992px) {
     .products-container {
         grid-template-columns: repeat(3, 1fr);
