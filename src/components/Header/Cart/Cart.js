@@ -1,4 +1,6 @@
 import React from 'react';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -15,6 +17,12 @@ const Cart = (props) => {
 
     const tax = parseFloat((total * 0.1).toFixed(2));
     const grandTotal = total + shipping + tax;
+
+    // const showToastMessage = () => {
+    //     toast.success('Success Notification !', {
+    //         position: toast.POSITION.TOP_RIGHT
+    //     });
+    // };
 
     return (
         <div className='cart'>
