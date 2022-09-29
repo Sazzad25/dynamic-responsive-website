@@ -1,6 +1,7 @@
 import React from 'react';
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Swal from 'sweetalert2'
 import './Cart.css'
 
 const Cart = (props) => {
@@ -18,11 +19,16 @@ const Cart = (props) => {
     const tax = parseFloat((total * 0.1).toFixed(2));
     const grandTotal = total + shipping + tax;
 
-    // const showToastMessage = () => {
-    //     toast.success('Success Notification !', {
-    //         position: toast.POSITION.TOP_RIGHT
-    //     });
-    // };
+    const showToastMessage = () => {
+        toast.success('Success Notification !', {
+            position: toast.POSITION.TOP_RIGHT
+        });
+        Swal.fire(
+            'Good job!',
+            'You clicked the button!',
+            'success'
+        )
+    };
 
     return (
         <div className='cart'>
@@ -39,7 +45,8 @@ const Cart = (props) => {
             </div>
             <p>Working time: {total}s</p>
             <p>Break time: 0s</p>
-            <button>Activity Completed</button>
+            <button onClick={showToastMessage}>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };
