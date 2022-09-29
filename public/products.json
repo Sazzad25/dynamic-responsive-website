@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b1872b25-ba91-48ed-9468-1822df0637b9",
+    "category": "Cap",
+    "name": "Relaxed Strap-Back Hat",
+    "seller": "Addidas",
+    "price": 30,
+    "stock": 6,
+    "ratings": 4,
+    "ratingsCount": 4,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/4feb20f4d990407cb4f1a88a0040b212_9366/Relaxed_Strap-Back_Hat_Black_BH7137_01_standard.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "ea028038-4e9d-42bf-b033-88aa5e6cc477",
+    "category": "Cap",
+    "name": "Icon Snapback Hat",
+    "seller": "Addidas",
+    "price": 21,
+    "stock": 13,
+    "ratings": 4,
+    "ratingsCount": 1,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1e27ae8bbfb647489261ac8e015d181f_9366/Icon_Snapback_Hat_Grey_EX6798_01_standard.jpg",
+    "shipping": 26,
+    "quantity": 0
+  },
+  {
+    "id": "e912ad01-2551-48dc-a709-4054cbfbcbbc",
+    "category": "Bottle",
+    "name": "Steel Metal Bottle 600 ML",
+    "seller": "Addidas",
+    "price": 43,
+    "stock": 19,
+    "ratings": 4,
+    "ratingsCount": 64,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1105dc0c9232477eb80dac7d000edc0c_9366/Steel_Metal_Bottle_600_ML_White_EX7306_01_standard.jpg",
+    "shipping": 43,
+    "quantity": 0
+  },
+  {
+    "id": "afc5d640-9943-437a-b644-ba1f6f12baa9",
+    "category": "Bottle",
+    "name": "Steel Straw Metal Bottle 600 ML",
+    "seller": "Addidas",
+    "price": 43,
+    "stock": 10,
+    "ratings": 3,
+    "ratingsCount": 15,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f7fb63986ed34112bc57ac7d002c9f43_9366/Steel_Straw_Metal_Bottle_600_ML_White_EX7316_01_standard.jpg",
+    "shipping": 46,
+    "quantity": 0
+  },
+  {
+    "id": "5b5c43d9-950d-4b9a-b7d9-ca489224a7b2",
+    "category": "Bottle",
+    "name": "Steel Metal Bottle 600 ML",
+    "seller": "Addidas",
+    "price": 26,
+    "stock": 20,
+    "ratings": 5,
+    "ratingsCount": 83,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e2d870a680644e4d98e9ac7d0008ecc7_9366/Steel_Metal_Bottle_600_ML_Yellow_EX7307_01_standard.jpg",
+    "shipping": 6,
+    "quantity": 0
+  },
+  {
+    "id": "96239c09-8b1c-4c81-99f9-f43e7613eab3",
+    "category": "Bottle",
+    "name": "Squad Glass Bottle 720 ML",
+    "seller": "Addidas",
+    "price": 39,
+    "stock": 20,
+    "ratings": 3,
+    "ratingsCount": 1,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/77ad16764abf4e828560ad44001cd640_9366/Squad_Glass_Bottle_720_ML_Black_FZ7115_01_standard.jpg",
+    "shipping": 5,
+    "quantity": 0
+  }
+]
