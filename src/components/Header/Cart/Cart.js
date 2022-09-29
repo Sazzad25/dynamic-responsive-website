@@ -18,12 +18,20 @@ const Cart = (props) => {
 
     return (
         <div className='cart'>
-            <h4>Order Summary</h4>
-            <p>Selected Items: {quantity}</p>
+            <div>
+                <img src="https://png.pngtree.com/png-clipart/20210807/ourmid/pngtree-volleyball-player-watercolor-silhouette-png-image_3784112.jpg" alt="" />
+                <h4>Rumana Ahmed</h4>
+            </div>
+            <h5>Add A Break</h5>
+            <div>
+                <li>20s</li>
+                <li>30s</li>
+                <li>40s</li>
+                <li>50s</li>
+            </div>
             <p>Working time: {total}s</p>
-            <p>Total Shipping: ${shipping}</p>
-            <p>Tax: {tax}</p>
-            <h5>Grand Total: ${grandTotal.toFixed(2)}</h5>
+            <p>Break time: 0s</p>
+            <button>Activity Completed</button>
         </div>
     );
 };
