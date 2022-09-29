@@ -5,13 +5,13 @@ import './Product.css'
 
 const Product = ({ product, handleAddToCart }) => {
     // const {product, handleAddToCart} = props;
-    const { name, img, seller, price, ratings } = product;
+    const { name, img, seller, time, ratings } = product;
     return (
         <div className='product'>
             <img src={img} alt=""></img>
             <div className='product-info'>
                 <p className='product-name'>{name}</p>
-                <p>Price: ${price}</p>
+                <p>Time required: {time}s</p>
                 <p><small>Seller: {seller}</small></p>
                 <p><small>Ratings: {ratings} stars</small></p>
             </div>
@@ -20,6 +20,7 @@ const Product = ({ product, handleAddToCart }) => {
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
+
     );
 };
 
